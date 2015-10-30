@@ -9,6 +9,5 @@ applications:
   instances: 1
   memory: 128M
 env:
-  COMPOSER_GITHUB_OAUTH_TOKEN: 12866478c3bead564b72d42f35301a778ead1b1a
   SYMFONY_ENV: prod
   DOCUMENT_ROOT: web
