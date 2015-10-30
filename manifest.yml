@@ -1,0 +1,14 @@
+applications:
+- disk_quota: 1024M
+  buildpack: php_buildpack
+  host: sf2-listing-internal
+  name: sf2-listing-internal
+  #domain: mybluemix.net
+  domain: eu-gb.mybluemix.net
+  #domain: cfapps.io
+  instances: 1
+  memory: 128M
+env:
+  COMPOSER_GITHUB_OAUTH_TOKEN: 12866478c3bead564b72d42f35301a778ead1b1a
+  SYMFONY_ENV: prod
+  DOCUMENT_ROOT: web

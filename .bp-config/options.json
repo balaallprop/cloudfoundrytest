@@ -1,0 +1,12 @@
+{
+"PHP_VERSION": "{PHP_54_LATEST}",
+"WEB_SERVER": "nginx",
+"PHP_EXTENSIONS": ["pdo", "apcu", "memcache", "curl", "bz2", "zlib", "mcrypt", "pdo_mysql", "mysql", "mbstring", "pgsql", "intl"],
+"WEBDIR": "web",
+"COMPOSER_VENDOR_DIR": "vendor/",
+"COMPOSER_INSTALL_OPTIONS": [ "--no-interaction", "--no-scripts",  "--no-progress"],
+"ADDITIONAL_PREPROCESS_CMDS": [
+        "echo \"PATH: [$PATH]\"",
+        "env"
+    ]
+}
